@@ -1,4 +1,4 @@
-Button code for a button that is on the bottom of the screen!
+
 let state = 0;
 
 function setup() {
