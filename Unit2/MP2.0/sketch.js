@@ -107,19 +107,15 @@ function draw() {
     case 6:
       image(source, 0, 0, 800, 800);
       text("Alright CATCH THESE HANDS....", 100, 100);
-      timer++;
-      if (timer > 200) {
-        myState = 6;
-        timer = 0;
-        break;
-
-      }
+      break;
 
   }
 
-  function mouseReleased() {
-    myState = myState + 1;
-    if (myState > 7) {
-      myState = 0;
-    }
+}
+
+function mouseReleased() {
+  myState = myState + 1;
+  if (myState > 6) {
+    myState = 0;
   }
+}
