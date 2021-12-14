@@ -14,29 +14,29 @@ function draw() {
       break;
 
 case 1:
-      background("red")
-      text("state 0",100, 100);
+      background("blue")
+      text("state 1",100, 100);
       break;
 
   case 2:
-      background("red")
-      text("state 0",100, 100);
+      background("yellow")
+      text("state 2",100, 100);
       break;
 
     case 3:
       background("blue")
-      text("state 0",100, 100);
+      text("state 3",100, 100);
       break;
 
       case 4:
-      background("black")
-      text("state 0",100, 100);
+      background("purple")
+      text("state 4",100, 100);
       break;
   }
 }
 function mouseReleased(){
   state++ ;
-  if (state > 2){
+  if (state > 4){
    state = 0 ;
   }
 }
