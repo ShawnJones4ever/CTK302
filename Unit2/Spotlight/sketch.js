@@ -4,20 +4,20 @@ let x = 0 ;
 let velocity = 10 ;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 800);
   ellipseMode(CENTER) ;
-  rectMode(CENTER) :
+  rectMode(CENTER) ;
 }
 
 function draw() {
 
 background(100);
 fill('yellow');
-rect(width/2, height2, 200, 600 );
+rect(width/2, height/2, 200, 600 );
 
 //car code
 fill('blue')
-rect(0,750,75,20) ;
+rect(x,750,75,20) ;
 x = x + velocity ;
 if (x > width) {
   x = 0 ;
